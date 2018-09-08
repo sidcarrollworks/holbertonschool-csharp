@@ -19,6 +19,5 @@ class Array
             Console.WriteLine("");
             return arr;
         }
-        
     }
 }

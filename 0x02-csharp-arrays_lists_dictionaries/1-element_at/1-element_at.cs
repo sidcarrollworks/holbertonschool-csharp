@@ -8,7 +8,7 @@
             try {
                 int element = array[index];
                 return element;
-            } catch (Exception ex) {
+            } catch (Exception) {
                 Console.WriteLine("Index out of range");
                 return (-1);
             }
