@@ -1,0 +1,1 @@
+Lesson about structs and enum
