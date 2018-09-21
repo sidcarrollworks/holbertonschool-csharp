@@ -41,10 +41,6 @@ namespace Enemies
             return health;
         }
 
-        public Zombie() {
-            health = 0;
-        }
-
         /// <summary>
         /// overide to string
         /// </summary>
