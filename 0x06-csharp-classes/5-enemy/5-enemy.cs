@@ -41,10 +41,14 @@ namespace Enemies
             return health;
         }
 
+        public Zombie() {
+            health = 0;
+        }
+
         /// <summary>
         /// overide to string
         /// </summary>
-        /// <returns></returns>
+        /// <returns> formatted string</returns>
         public override string ToString() {
             return ("Zombie Name: " + name + " / " + "Total Health: " + health);
         }
