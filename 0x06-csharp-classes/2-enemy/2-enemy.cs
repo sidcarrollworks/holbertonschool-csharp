@@ -8,7 +8,7 @@ namespace Enemies
     class Zombie
     {
         ///<summary>public health value</summary>
-        private int health;
+        public int health;
         ///<summary>public zombie constructor</summary>
         public Zombie(int value) {
             if (value < 0) {
