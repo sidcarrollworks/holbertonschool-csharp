@@ -1,10 +1,11 @@
 ﻿using System;
-/*
-    Enemies namespace
- */
+
 namespace Enemies
 {
-    /// <summary>The main Enemies Class</summary>
+    /*
+        Zombie Class
+        Holds the zombies
+     */
     class Zombie
     {
         
