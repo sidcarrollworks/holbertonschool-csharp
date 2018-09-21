@@ -9,6 +9,10 @@ namespace Enemies
     {
         ///<summary>public health value</summary>
         public int health;
+
+        public Zombie() {
+            health = 0;
+        }
         ///<summary>public zombie constructor</summary>
         public Zombie(int value) {
             if (value < 0) {
