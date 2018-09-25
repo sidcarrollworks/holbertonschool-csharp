@@ -17,6 +17,8 @@ namespace Tests
 
             max = MyMath.Operations.Max(nums);
 
+            if (max == 4) Assert.Pass();
+
         }
     }
 }
