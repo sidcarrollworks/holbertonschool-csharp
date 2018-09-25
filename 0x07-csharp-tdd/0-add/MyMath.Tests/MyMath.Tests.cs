@@ -12,20 +12,13 @@ namespace Tests
     public class Tests
     {
         /// <summary>
-        /// setup for tests
-        /// </summary>
-        [SetUp]
-        public void Setup()
-        {
-        }
-
-        /// <summary>
         /// Tests
         /// </summary>
         [Test]
         public void Test1()
         {
-            Assert.Pass();
+            int res = MyMath.Operations.Add(1, 1);
+            if (res == 2) Assert.Pass();
         }
     }
 }
