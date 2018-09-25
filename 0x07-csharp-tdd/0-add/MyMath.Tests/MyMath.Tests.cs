@@ -1,11 +1,14 @@
 using NUnit.Framework;
-using MyMath;
 
-namespace MyMaths.Tests
+namespace Tests
 {
-    [TestFixture]
     public class Tests
     {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
         [Test]
         public void Test1()
         {
