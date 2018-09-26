@@ -2,12 +2,14 @@ using NUnit.Framework;
 using Text;
 
 /*
-namespace for tests */
+    namespace for tests 
+*/
 namespace Tests
 {
     /// <summary>
     /// holds all tests for text.unique
     /// </summary>
+    [TestFixture]
     public class Tests
     {
         /// <summary>
