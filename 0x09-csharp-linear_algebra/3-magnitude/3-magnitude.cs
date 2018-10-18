@@ -1,9 +1,16 @@
 ﻿using System;
 using System.Math;
 
-
+/*
+    gets magnitude
+ */
 class VectorMath
 {
+    /// <summary>
+    /// Finds magnitude of vector
+    /// </summary>
+    /// <param name="vector">vector to check</param>
+    /// <returns>length of vector</returns>
     public static double Magnitude(double[] vector)
     {
         double res = -1;
